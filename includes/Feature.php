@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WoocommerceShippingRulesEngine;
 if (! defined('ABSPATH')) { exit; }
-final class WoocommerceShippingRulesEngineFeature {
+final class Feature {
     private const OPTION = 'woocommerce_shipping_rules_engine_enabled';
     private const SLUG = 'woocommerce-shipping-rules-engine';
     private const TITLE = 'WooCommerce Shipping Rules Engine';
