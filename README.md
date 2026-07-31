@@ -1,19 +1,18 @@
 # WooCommerce Shipping Rules Engine
 
-Flexible WooCommerce shipping-rule patterns for real-world fulfillment requirements.
+A package-rate rule that applies free shipping to qualifying cart totals.
 
-## Client value
+## Functional scope
 
-Location, cart, and product-based shipping decisions that support operational needs.
+- Runs as a standalone WordPress plugin
+- Includes an admin settings screen and an enable/disable option
+- Implements real WordPress or WooCommerce hooks for the stated workflow
+- Cleans up its option on uninstall
 
-This public reference implementation demonstrates a maintainable approach to WordPress and WooCommerce client work: clean extension points, predictable deployment, and focused code.
+## Installation
 
-## What this starter includes
+Copy this repository into `wp-content/plugins/woocommerce-shipping-rules-engine`, activate it, then open **Settings → WooCommerce Shipping Rules Engine**.
 
-- A focused entry point for the stated use case
-- A clear foundation for client-specific customization
-- An intentionally compact structure for safe iteration
+## Production note
 
-## Notes
-
-This repository is a focused portfolio starter, not a replacement for a full discovery, QA, or production deployment process.
+This is a working reference implementation intended for discovery and adaptation to a client’s requirements. Test on staging before deployment.
